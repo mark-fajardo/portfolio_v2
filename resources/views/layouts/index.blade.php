@@ -17,7 +17,14 @@
     </head>
     <body>
         <div id="app">
-
+            <v-nav></v-nav>
+            <!-- @yield('nav') -->
+        </div>
+        
+        <div class='box'>
+            <div class='wave -one'></div>
+            <div class='wave -two'></div>
+            <div class='wave -three'></div>
         </div>
 
         <script src="{{ asset('js/app.js') }}"></script>
